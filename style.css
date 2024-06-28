@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto';
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.8rem 2rem;
+    background-color: darkolivegreen;
+    color: white;
+}
+.write,
+.active{
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}
+.item{
+    cursor: pointer;
+}
+.blogPost{
+    padding: 2rem;
+    margin-inline: auto;
+    max-width: 900px;
+}
+.blogTitle{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: #555555f6;
+    font-size: 34px;
+    font-weight: 700;
+}
+.blogDesc{
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #666666ec;
+    
+}
+
+.author{
+    font-style: italic;
+    color: darkolivegreen;
+    font-weight: 600;
+}
+.blog-list{
+    
+}
+.full-blogpost{
+    display: block;
+}
+.form{
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    transition: all 0.4s linear;
+   
+}
+label{
+    display: block;
+    margin-block: 0.8rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #555555f6;
+    
+}
+
+input,
+textarea
+{
+    width: 400px;
+    height: 40px;
+    padding: 0.6rem;
+    font-size: 1.2rem;
+    outline: none;
+    color: #33333398;
+    border-radius: 0.8rem;
+    border: 1px solid #33333398;
+
+}
+textarea{
+    height: 200px;
+}
+.submitBtn{
+    margin-top: 1rem;
+    padding: 0.8rem 1rem;
+    border: none;
+    background-color: darkolivegreen;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.4rem;
+}

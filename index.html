@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog post</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Logo</h1>
+      <div class="active">Home</div>
+      <div class="write">Write your post</div>
+    </div>
+    <div class="blogPost">
+      <div class="blog-list"></div>
+      <div class="form">
+        <div>
+          <label for="title">Enter your title</label>
+          <input
+            class="input"
+            type="text"
+            placeholder="Enter your title"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="title">Your name</label>
+          <input
+            class="name"
+            type="text"
+            placeholder="Enter Your Name"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="post">Write your post</label>
+          <textarea name="" id="post" required></textarea>
+        </div>
+
+        <div>
+          <button class="submitBtn">Post Now</button>
+        </div>
+      </div>
+
+      <div class="full-blogpost"></div>
+      <div class="singlepost"></div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
